@@ -24,6 +24,10 @@ namespace Iteration_Statements_Exercise_3
 
 
         }
+
+        // LUKE WARM
+
+        //Write a method that will print to the console all numbers 1000 through -1000.
         public static void Print1000()
         {
             for (int i = 1000; i >= -1000; i--)
@@ -32,6 +36,7 @@ namespace Iteration_Statements_Exercise_3
             }
         }
 
+        //Write a method that will print to the console numbers 3 through 999 by 3 each time.
         public static void PrintBy3()
         {
             for (int i = 3; i <= 999; i += 3)
@@ -40,6 +45,7 @@ namespace Iteration_Statements_Exercise_3
             }
         }
 
+        //Write a method to accept two integers as parameters and check whether they are equal or not.
         public static void EqualOrNot(int x, int y)
         {
             if (x == y)
@@ -52,6 +58,7 @@ namespace Iteration_Statements_Exercise_3
             }
         }
 
+        //Write a method to check whether a given number is even or odd.
         static void IsEvenOrOdd(int x)
         {
             if (x % 2 == 0)
@@ -64,6 +71,7 @@ namespace Iteration_Statements_Exercise_3
             }
         }
 
+        //Write a method to check whether a given number is positive or negative.
         public static void IsPositiveOrNegative(int x)
         {
             if (x > 0)
@@ -80,6 +88,7 @@ namespace Iteration_Statements_Exercise_3
             }
         }
 
+        //Write a method to read the age of a candidate and determine whether they can vote. Hint: use Parse()... or the safer TryParse() for an extra challenge!!
         static void CanVote()
         {
             int num;
@@ -110,6 +119,9 @@ namespace Iteration_Statements_Exercise_3
 
         }
 
+        // HEATIN UP
+
+        //Write a method to check if an integer (from the user) is in the range -10 to 10.
         static void InRange(int userInput)
         {
             if (userInput >= -10 && userInput <= 10)
@@ -122,6 +134,7 @@ namespace Iteration_Statements_Exercise_3
             }
         }
 
+        //Write a method to display the multiplication table(from 1 to 12) of a given integer.
         static void MultiplicationTable(int number)
         {
             for (int i = 1; i <= 12; i++)
@@ -130,6 +143,7 @@ namespace Iteration_Statements_Exercise_3
             }
         }
 
+        //Write a method that takes a number from the user and returns an array with that many indexes. The values shall be random numbers.
         static int[] ArrayOfIndexers(int number)
         {
             int[] arr = new int[number];
@@ -142,6 +156,7 @@ namespace Iteration_Statements_Exercise_3
             return arr;
         }
 
+        //Write a method to compute the sum of all the elements in an array of integers.
         static int ComputeSumOfArray(int[] arr)
         {
             //return arr.Sum();
@@ -153,6 +168,9 @@ namespace Iteration_Statements_Exercise_3
             return sum;
         }
 
+        //Write a method to display the cube of the number up to given an integer.    
+        //If a user inputs the number 3 the method should print to the console: 
+        //Number is: 1 and the cube of 1 is: 1, Number is: 2 and the cube of 2 is: 8, Number is: 3 and the cube of 3 is: 27
         static void CubedNumber(int number)
         {
             for (int i = 1; i <= number; i++)
